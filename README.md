@@ -27,12 +27,15 @@ This project leverages HTML, CSS, and JavaScript to create an engaging and infor
 
 ## Infographic
 
-Click here to open interactive (visualization)[https://raw.githack.com/lesther-dumos/Web-Map-Application/main/map1.html]
+Click below to open interactive visualization
+
+[https://raw.githack.com/lesther-dumos/Web-Map-Application/main/map1.html]
+
 ![img](/img/chloropleth_map.png)
 
 
 
-Click here to open interactive visualization
+Click below to open interactive visualization
+
+[https://raw.githack.com/lesther-dumos/Web-Map-Application/main/map2.html]
 ![img](/img/proportional_map.png)
-
-
