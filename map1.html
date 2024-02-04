@@ -188,6 +188,8 @@ mapboxgl.accessToken =
             legend.appendChild(item);
         });
 
+        
+
         map.on('mousemove', ({point}) => {
             const covidRate = map.queryRenderedFeatures(point, {
                 layers: ['covidData-layer']
