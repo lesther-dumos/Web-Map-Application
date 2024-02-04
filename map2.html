@@ -104,14 +104,13 @@
         container: 'map', // container ID
         style: 'mapbox://styles/mapbox/dark-v10', // style URL
         center: [-96, 40], // starting position [lng, lat]
-        zoom: 3.85 // starting zoom
+        zoom: 3.85, // starting zoom
+        projection: 'albers'
     });
 
     const grades = [5000, 20000, 30000], 
       colors = ['rgb(254,232,200)','rgb(253,187,132)','rgb(227,74,51)'], 
       radii = [5, 15, 20];
-
-      
 
     map.on('load', () => {
     map.addSource('counts', {

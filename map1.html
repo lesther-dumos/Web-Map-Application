@@ -104,7 +104,8 @@ mapboxgl.accessToken =
         container: 'map', // container ID
         style: 'mapbox://styles/mapbox/light-v10', // style URL
         zoom: 3.85, // starting zoom
-        center: [-96, 40] // starting center
+        center: [-96, 40], // starting center
+        projection: 'albers'
     });
 
     async function geojsonFetch() { 
